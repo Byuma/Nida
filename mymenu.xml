@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/menuHome"
+         app:showAsAction="always"
+        />
+    <item
+        android:title="@string/about_us"
+        android:id="@+id/menuAbout"
+        />
+    <item
+        android:title="@string/login"
+        android:id="@+id/menuLogin"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/contact_us"
+        android:id="@+id/menuContact"
+        />
+    <item
+        android:title="@string/location"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_location"
+        android:id="@+id/menuLocation"
+        />
+    <item
+        android:title="@string/services"
+        android:id="@+id/menuServices"
+        />
+
+
+</menu>
